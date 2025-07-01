@@ -1,0 +1,8 @@
+{
+  "name": "Node.js & MongoDB",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:20-bookworm",
+  "features": {
+    "ghcr.io/devcontainers/features/mongodb:1": {}
+  },
+  "forwardPorts": [4000, 27017]
+}
